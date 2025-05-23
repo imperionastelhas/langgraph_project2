@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Ambientes
+.venv/
+env/
+venv/
+
+# Configs locais
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Arquivos do sistema
+*.swp
