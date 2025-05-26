@@ -1,3 +1,9 @@
 langgraph
 langsmith
+langchain
 langchain[openai]
+fastapi
+python-dotenv
+python-multipart
+uvicorn[standard]
+pydantic
