@@ -3,3 +3,6 @@ from pydantic import BaseModel
 
 class TriggerResponse(BaseModel):
     result: str
+    
+class MessageInput(BaseModel):
+    messages: list
