@@ -12,7 +12,8 @@ from langgraph.prebuilt import create_react_agent
 
 # --- Carrega a chave da OpenAI (assumindo que está no .env) ---
 load_dotenv()
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")  # Use variável do .env
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+os.environ["LANGSMITH_API_KEY"] = os.getenv("LANGSMITH_API_KEY")
 
 # --- Ferramenta de exemplo ---
 async def get_weather(city: str) -> str:
